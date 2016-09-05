@@ -54,7 +54,7 @@ a, a:hover, a:active {
 ---------------------------------*/
 body {
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #888888;
@@ -65,7 +65,7 @@ h2 {
     font-size: 38px;
     color: #222222;
     font-family: 'Raleway', sans-serif;
-    font-weight: normal;
+    font-weight: 600;
     margin: 0px 0 25px 0;
     text-align: center; 
 }
@@ -125,7 +125,7 @@ p {
 
 .navbar {
     border: 0px solid #fff;
-    min-height: 40px;
+    min-height: 10px;
     margin-bottom: 0px;
 }
 
@@ -134,7 +134,7 @@ p {
 }
 
 .navStyle {
-    float: right;
+    float: left;
 }
 
 .navStyle ul {
@@ -159,7 +159,7 @@ p {
     display: block;
     font-size: 14px;
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Signika', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -179,14 +179,15 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #D32229;
-    background-color: transparent;
+    color: #fff;    
+    background-color: #D32229;
+    border-radius:10%;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #D32229;
-    border-radius:5%;
+    border-radius:10%;
 }
 
 .navStyle > li.active > a,
@@ -276,8 +277,8 @@ p {
 a.read_more2 {
     font-family: 'Raleway', sans-serif;
     display: block;
-    font-size: 16px;
-    width: 278px;
+    font-size: 20px;
+    width: 288px;
     height: 46px;
     line-height: 46px;
     border-radius: 3px;
@@ -287,9 +288,9 @@ a.read_more2 {
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    background: #fff;
+    color: #D32229;    
+    border: 5px solid #fff;
 }
 
 a.read_more2:hover {
@@ -315,10 +316,12 @@ a.read_more2:hover {
 }
 
 .service_wrapper {
-    padding: 40px 0 40px;
+    padding: 40px 0 40px;    
 }
 
 .service_section {
+    background: #0479bd;
+    color: #fff
 }
 
 .service_block {
@@ -1591,7 +1594,7 @@ div.mc-image {
         margin-bottom:20px;
     }
     .service_block h3 { 
-        font-size: 16px;
+        font-size: 25px;
     }
     service_block p {
         font-size: 14px; 

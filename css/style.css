@@ -157,7 +157,7 @@ p {
 
 .navStyle ul li a {
     display: block;
-    font-size: 14px;
+    font-size: 18px;
     color: #222222;
     font-family: 'Signika', sans-serif;
     text-decoration: none;
@@ -169,7 +169,7 @@ p {
 }
 
 .navStyle ul li a:hover {
-    color: #D32229;
+    color: #D32229;    
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
